@@ -1,0 +1,50 @@
+body {
+    background: rgb(233, 233, 233);
+    font-family: 'Lato', sans-serif;
+}
+
+.Opener {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    line-height: 12px;
+    font-size: 30px;
+}
+
+.logoPics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logoPics img{
+    width: 40vw;
+    margin: 10px;
+    height: 40vw;
+}
+
+.logoPics label {
+    display: flex;
+    justify-content: center;
+}
+
+.About {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.About h1{
+    font-size: 50px;
+}
+
+.About p {
+    width: 70vw;
+}
+
+.About img {
+    border-radius: 50%;
+    width: 80vw;
+}
